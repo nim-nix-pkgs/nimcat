@@ -11,6 +11,7 @@
   inputs.src-nimcat-master.ref   = "refs/heads/master";
   inputs.src-nimcat-master.owner = "shakna-israel";
   inputs.src-nimcat-master.repo  = "nimcat";
+  inputs.src-nimcat-master.dir   = "";
   inputs.src-nimcat-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
